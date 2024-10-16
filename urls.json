@@ -1,0 +1,12 @@
+{
+    "cloudtrail": "",
+    "cloudtrail_s3": "",
+    "vpc":"",
+    "Subnets":"",
+    "Network_ACL":"",
+    "Security_Groups":"",
+    "Security_group_rules":"",
+    "KMS_Customer_Managed_Keys":"",
+    "KMS_Key_rotation_1":"",
+  }
+  
