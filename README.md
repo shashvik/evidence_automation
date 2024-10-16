@@ -41,3 +41,9 @@ This information will be used for a comprehensive review of our system's access 
 End Prompt
 
 Use this promt in conjunction with a script to send the screenshots to the LLM witht hsi prompt and download the results into named csv files.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Finally take the userlisting from the CSV files and you can compare it with your user directory and find mismatches between them say to find users who have left the org but still are presnt on the application, or find non-human users in the listing too.
+
+Note: This is an automation to to UAR for users on application which cant integrate with SSO or do not have any native API endpoints for user listing.
