@@ -35,14 +35,15 @@ start_date: The beginning of the date range for fetching tickets.
 end_date: The end of the date range for fetching tickets.
 python
 Copy code
-JIRA_BASE_URL = 'https://your-jira-instance.atlassian.net'  # Replace with your Jira instance URL
-PROJECT_KEY = 'ABC'  # Replace with your project key
-USERNAME = 'your-email@example.com'  # Replace with your Jira email
-API_TOKEN = 'your-api-token'  # Replace with your Jira API token
+JIRA_BASE_URL = 'https://your-jira-instance.atlassian.net' # Replace with your Jira instance URL
+PROJECT_KEY = 'ABC' # Replace with your project key
+USERNAME = 'your-email@example.com' # Replace with your Jira email
+API_TOKEN = 'your-api-token' # Replace with your Jira API token
 
 # Time period for fetching tickets
-start_date = '2024-10-15'  # Replace with your desired start date
-end_date = '2024-10-17'    # Replace with your desired end date
+
+start_date = '2024-10-15' # Replace with your desired start date
+end_date = '2024-10-17' # Replace with your desired end date
 Usage
 Clone or download this repository.
 Update the configuration variables in the script.
