@@ -1,10 +1,10 @@
-#GitHub Compliance Evidence Automation
+# GitHub Compliance Evidence Automation
 This Python script automates the extraction of compliance-related evidence from a specified GitHub repository. The script gathers various data points, including commit history, pull requests, issues, branch protection rules, security alerts, and workflow runs, and saves the information in an Excel file for easy reporting and compliance purposes.
 
-##Features
+## Features
 Extracts and compiles:
 
-Commit history
+## Commit history
 Pull requests and issues (combined)
 Branch protection rules
 Security alerts (Dependabot)
@@ -14,7 +14,7 @@ Repository collaborators
 Repository settings
 Saves all extracted data into an Excel file with multiple sheets.
 
-Requirements
+## Requirements
 Python 3.x
 pandas library
 openpyxl library
@@ -22,10 +22,11 @@ requests library
 You can install the required libraries using pip:
 
 bash
-Copy code
+```Copy code
 pip install pandas openpyxl requests
 Configuration
 Before running the script, you need to configure the following variables in the code:
+
 
 REPO_OWNER: Your GitHub username or organization name.
 REPO_NAME: The name of the repository you want to extract data from.
@@ -35,7 +36,9 @@ Copy code
 REPO_OWNER = 'your-organization'  # Replace with your organization or username
 REPO_NAME = 'your-repository'      # Replace with your repository name
 TOKEN = 'your-github-token'        # Replace with your GitHub token
-Usage
+```
+
+## Usage
 Clone or download this repository.
 Update the configuration variables in the script.
 Run the script using Python:
