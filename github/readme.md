@@ -21,7 +21,7 @@ openpyxl library
 requests library
 You can install the required libraries using pip:
 
-bash
+
 ```Copy code
 pip install pandas openpyxl requests
 Configuration
@@ -39,22 +39,24 @@ TOKEN = 'your-github-token'        # Replace with your GitHub token
 ```
 
 ## Usage
-Clone or download this repository.
+```Clone or download this repository.
 Update the configuration variables in the script.
 Run the script using Python:
 bash
 Copy code
 python github_evidence_automation.py
+
 After execution, check the generated github_compliance_evidence.xlsx file for the compliance evidence.
-Output
+```
+## Output
 The script generates an Excel file named github_compliance_evidence.xlsx containing multiple sheets with the following data:
 
-Commits: Detailed commit history.
-Pull Requests: Information about all pull requests (including closed).
-Issues: List of issues, including whether they are pull requests.
-Branch Protection: Details about branch protection rules.
-Security Alerts: Any security alerts from Dependabot.
-Code Scanning: Results of code scanning alerts.
-Collaborators: List of repository collaborators and their permissions.
-Repository Settings: Basic settings of the repository.
-CICD Runs: Information about CI/CD workflow runs.
+- **Commits: Detailed commit history.
+- **Pull Requests: Information about all pull requests (including closed).
+- **Issues: List of issues, including whether they are pull requests.
+- **Branch Protection: Details about branch protection rules.
+- **Security Alerts: Any security alerts from Dependabot.
+- **Code Scanning: Results of code scanning alerts.
+- **Collaborators: List of repository collaborators and their permissions.
+- **Repository Settings: Basic settings of the repository.
+- **CICD Runs: Information about CI/CD workflow runs.
