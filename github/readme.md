@@ -51,12 +51,12 @@ After execution, check the generated github_compliance_evidence.xlsx file for th
 ## Output
 The script generates an Excel file named github_compliance_evidence.xlsx containing multiple sheets with the following data:
 
-- ** Commits: Detailed commit history.
-- **Pull Requests: Information about all pull requests (including closed).
-- **Issues: List of issues, including whether they are pull requests.
-- **Branch Protection: Details about branch protection rules.
-- **Security Alerts: Any security alerts from Dependabot.
-- **Code Scanning: Results of code scanning alerts.
-- **Collaborators: List of repository collaborators and their permissions.
-- **Repository Settings: Basic settings of the repository.
-- **CICD Runs: Information about CI/CD workflow runs.
+- Commits: Detailed commit history.
+- Pull Requests: Information about all pull requests (including closed).
+- Issues: List of issues, including whether they are pull requests.
+- Branch Protection: Details about branch protection rules.
+- Security Alerts: Any security alerts from Dependabot.
+- Code Scanning: Results of code scanning alerts.
+- Collaborators: List of repository collaborators and their permissions.
+- Repository Settings: Basic settings of the repository.
+- CICD Runs: Information about CI/CD workflow runs.
