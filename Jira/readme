@@ -1,26 +1,27 @@
-Jira Compliance Evidence Automation
+# Jira Compliance Evidence Automation
 This Python script automates the extraction of compliance-related evidence from a specified Jira project. It gathers relevant information about tickets, including their details, comments, attachments, worklogs, and changelogs, and saves the data in an Excel file for reporting and compliance purposes.
 
-Features
+## Features
 Extracts and compiles:
 
-Ticket key
-Summary
-Created date
-Reporter
-Status
-Comments
-Changelog
-Attachments
-Worklogs
+- Ticket key
+- Summary
+- Created date
+- Reporter
+- Status
+- Comments
+- Changelog
+- Attachments
+- Worklogs
+
 Saves all extracted data into an Excel file for easy reporting.
 
-Requirements
-Python 3.x
+# Requirements
+```Python 3.x
 pandas library
 requests library
 You can install the required libraries using pip:
-
+```
 bash
 Copy code
 pip install pandas requests
