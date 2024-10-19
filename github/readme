@@ -1,7 +1,7 @@
-GitHub Compliance Evidence Automation
+#GitHub Compliance Evidence Automation
 This Python script automates the extraction of compliance-related evidence from a specified GitHub repository. The script gathers various data points, including commit history, pull requests, issues, branch protection rules, security alerts, and workflow runs, and saves the information in an Excel file for easy reporting and compliance purposes.
 
-Features
+##Features
 Extracts and compiles:
 
 Commit history
