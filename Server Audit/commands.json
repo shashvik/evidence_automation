@@ -1,0 +1,14 @@
+{
+    "etc_user": "TERM=dumb grep '^' /etc/passwd",
+    "shadow": "TERM=dumb grep '^' /etc/shadow",
+    "Current OS Version": "TERM=dumb cat /etc/os-release",
+    "Max 90 Days Policy": "TERM=dumb grep 'PASS_MAX_DAYS' /etc/login.defs",
+    "ClientAliveInterval": "TERM=dumb grep -i 'ClientAliveInterval' /etc/ssh/sshd_config",
+    "ClientAlive max count": "TERM=dumb grep -i 'ClientAliveCountMax' /etc/ssh/sshd_config",
+    "MaxAuthTries": "TERM=dumb grep 'MaxAuthTries' /etc/ssh/sshd_config",
+    "Banner": "TERM=dumb grep 'Banner' /etc/ssh/sshd_config | grep -v '#Banner none'",
+    "Password Authentication": "TERM=dumb grep 'PasswordAuthentication' /etc/ssh/sshd_config",
+    "Root login disabled": "TERM=dumb grep 'PermitRootLogin' /etc/ssh/sshd_config",
+    "Login Policies for user": "TERM=dumb grep '^' /etc/login.defs"
+}
+
