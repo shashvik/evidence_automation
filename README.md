@@ -3,6 +3,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Instructions:
 This automation system is used to help take screenshots for evidence collection, and add a system timestamp to it, this will reduce efforts while executing evidence collection for aws and other resources.
+Read additional automations for server, jira, github as well in the folders
 
 Steps:
 
